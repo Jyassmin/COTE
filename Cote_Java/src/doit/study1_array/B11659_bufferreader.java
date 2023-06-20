@@ -18,7 +18,7 @@ public class B11659_bufferreader {
         
         int n = Integer.valueOf(st.nextToken());
         int m = Integer.valueOf(st.nextToken());
-        int num[] = new int[n];
+        int num[] = new int[n]; 
         int sum[] = new int[n + 1];
 
         st = new StringTokenizer(br.readLine()); // 두번째 

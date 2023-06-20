@@ -23,7 +23,7 @@ public class B2738 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		int n = Integer.valueOf(st.nextToken());
-		int m = Integer.valueOf(st.nextToken());
+		int m = Integer.valueOf(st.nextToken()); 
 		
 		// 행렬 생성 
 		int[][] arr = new int[n][m];
