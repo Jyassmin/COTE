@@ -5,7 +5,6 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Stack;
 
-// [스택 수열]
 //8
 //4
 //3
@@ -15,6 +14,25 @@ import java.util.Stack;
 //5
 //2
 //1
+
+// [스택 수열]
+
+// n
+// for (n) : 출력대상 하나씩 가져옴 
+	// 1. 만약 push_num이 출력대상보다 같거나 작으면 
+		// 같아질때까지
+			// push & push_num++ & +저장
+		// 같아졌을 때 pop & -저장 
+	
+	// 2. push_num이 출력대상보다 크면 
+		// 만약 pop을 하고, 이게 출력대상과 같으면
+			// pop & - 저장
+		// 틀리면 
+			//No!!!! break; 
+
+
+// 1부터 1씩 증가하는 push_num을 stack에다가 하나씩 넣을거임 
+// push
 
 public class B1874 {
 	public static void main(String[] args) throws IOException {
