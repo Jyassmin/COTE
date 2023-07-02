@@ -24,7 +24,7 @@ package doit.study2_stack;
 		// else
 			// push
 
-	// if (stack.size <= 2)
+	// if (stack.size == 0)
 		// result++
 
 // result출력 
