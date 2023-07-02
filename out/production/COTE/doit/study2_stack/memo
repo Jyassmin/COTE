@@ -1,0 +1,11 @@
+ n(수열 개수)
+ arr (배열) 
+
+ top (스택에 추가할 수) 1씩 증가 
+ for (n만큼 반복) {
+ 		if (top < arr[i])
+ 			while
+			push;
+			(+) st에 저장
+		
+		else 
