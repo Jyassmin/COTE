@@ -62,7 +62,7 @@ public class B13335 {
 			sum_wei -= stack_bridge.poll();
 			
 			if (!stack_wei.isEmpty()) {
-				if (stack_wei.peek() + sum_wei <= l) {
+				if (sum_wei + stack_wei.peek() <= l) {
 					sum_wei += stack_wei.peek();
 					stack_bridge.offer(stack_wei.poll());
 					
@@ -71,11 +71,7 @@ public class B13335 {
 				}
 			}
 		}
-		
 		// 출력
 		System.out.println(time);
-		
-		
 	}
-
 }

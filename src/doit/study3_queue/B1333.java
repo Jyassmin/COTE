@@ -37,14 +37,13 @@ import java.util.StringTokenizer;
 		// else
 			// stack_bridge.offer(0); # 시간끌기
 public class B1333 {
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		int n = Integer.parseInt(st.nextToken());
 		int w = Integer.parseInt(st.nextToken());
 		int l = Integer.parseInt(st.nextToken());
-		
+
 		Queue<Integer> stack_wei = new LinkedList<Integer>();
 		st = new StringTokenizer(br.readLine());
 		for(int i= 0; i< n; i++) {
@@ -54,28 +53,23 @@ public class B1333 {
 		for(int i =0; i<w ; i++) {
 			stack_bridge.add(0);
 		}
-		
+
 		int sum_wei = 0; // bridge위의 누적무게
 		int time = 0;
 		while(!stack_bridge.isEmpty()) {
 			time++;
 			sum_wei -= stack_bridge.poll();
-			
+
 			if (!stack_wei.isEmpty()) {
-				if (stack_wei.peek() + sum_wei <= l) {
+				if (sum_wei + stack_wei.peek() <= l) {
 					sum_wei += stack_wei.peek();
-					stack_bridge.offer(stack_wei.peek());
-					
-				} else {	
-				 stack_bridge.offer(0);
+					stack_bridge.offer(stack_wei.poll());
+
+				} else {
+					stack_bridge.offer(0);
 				}
 			}
 		}
-		
-		// 출력
 		System.out.println(time);
-		
-		
 	}
-
 }
