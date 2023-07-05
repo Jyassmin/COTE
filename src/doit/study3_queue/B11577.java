@@ -30,30 +30,27 @@ public class B11577 {
             sum += arr[i];
         }
 
-        while ((sum != 0) && (index <= n-k)) {
+        while (index++ <= n-k) {
             if (arr[index] == 1) {
                 result++;
-                for (int i=0; i<k; i++) // 만약 k가 n이라면 시간복잡도는 o^2가 되어 fail!
-                    switch_01(arr, index+i);
+                for (int i=index; i<k; i++) // 만약 k가 n이라면 시간복잡도는 o^2가 되어 fail!
+                    arr[i] = arr[i]^1;
             }
-            index++;
         }
 
-        // 출력
-        if (sum == 0)
+        boolean check=true;
+        for(int i=0;i<n;i++) {
+            if(arr[i]==1) {
+                check=false;
+                break;
+            }
+        }
+
+        if (check)
             System.out.println(result);
         else
             System.out.println("Insomnia");
     }
 
-    static void switch_01(int[] arr, int index) {
-        if (arr[index] == 0) {
-            arr[index] = 1;
-            sum++;
-        } else {
-            arr[index] = 0;
-            sum--;
-        }
-    }
 
 }

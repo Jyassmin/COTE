@@ -30,6 +30,11 @@ public class B1715 {
             pque.add(Long.parseLong(br.readLine()));
         }
 
+        // 이렇게 짧게 가능
+//        while (n-- > 0) {
+//            pq.offer(Long.parseLong(br.readLine()));
+//        }
+
         // start
         long sum = 0;
         long num1, num2;

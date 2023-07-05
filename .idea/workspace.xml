@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92f796de-af1a-48da-947e-7ee44fa6b935" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/doit/study3_queue/B11286.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doit/study3_queue/B11577.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/COTE/doit/study3_queue/B1333.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/COTE/doit/study3_queue/B1333.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/COTE/doit/study3_queue/B13335.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/COTE/doit/study3_queue/B13335.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doit/study3_queue/B1333.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doit/study3_queue/B1333.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doit/study3_queue/B13335.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doit/study3_queue/B13335.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/COTE/doit/study1_twopointer/B2003_rc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/COTE/doit/study1_twopointer/B2003_rc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doit/study1_twopointer/B2003_rc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doit/study1_twopointer/B2003_rc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doit/study3_queue/B11577.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doit/study3_queue/B11577.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doit/study3_queue/B1715.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doit/study3_queue/B1715.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,23 +47,10 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.B10845">
-    <configuration name="B10845" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doit.study3_queue.B10845" />
-      <module name="COTE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="doit.study3_queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.p2">
     <configuration name="B11577" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="doit.study3_queue.B11577" />
       <module name="COTE" />
@@ -80,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B14235" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doit.study3_queue.B14235" />
+    <configuration name="B1427" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doit.study4_sort.B1427" />
       <module name="COTE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="doit.study3_queue.*" />
+          <option name="PATTERN" value="doit.study4_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B1715" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doit.study3_queue.B1715" />
+    <configuration name="B2750" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doit.study4_sort.B2750" />
       <module name="COTE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="doit.study3_queue.*" />
+          <option name="PATTERN" value="doit.study4_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +90,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.sorting.test" />
+    <configuration name="p1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingtest.p1" />
       <module name="COTE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.sorting.*" />
+          <option name="PATTERN" value="codingtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingtest.p2" />
+      <module name="COTE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingtest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,10 +129,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.B10845" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.B1715" />
-        <item itemvalue="Application.B14235" />
+        <item itemvalue="Application.p2" />
+        <item itemvalue="Application.p1" />
+        <item itemvalue="Application.B1427" />
+        <item itemvalue="Application.B2750" />
         <item itemvalue="Application.B11577" />
       </list>
     </recent_temporary>
@@ -159,6 +156,30 @@
           <line>2</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/doit/study3_queue/B11577.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/codingtest/p1.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/codingtest/p2.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/codingtest/p2.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

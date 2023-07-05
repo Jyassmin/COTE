@@ -43,8 +43,8 @@ public class B2003_rc {
 		int sum = 0;
 		
 		while(true) {
-			if(sum >= m) { // sum >= m 이면 값을 줄여야하므로 현재 start의 값을 빼고, 한 칸 전진.  
-				sum -= arr[start++];
+			if(sum >= m) { // sum >= m 이면 값을 줄여야하므로 현재 start의 값을 더하고, 한 칸 전진.
+				sum -= arr[start];
 				start++;
 			}
 			else if(end >= len) { // sum < M 때문에 값을 늘리려고 end를 증가시키다 len만큼 커지게 되면 끝!
