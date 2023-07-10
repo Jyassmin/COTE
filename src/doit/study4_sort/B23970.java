@@ -66,22 +66,25 @@ public class B23970 {
             exit:
             for (int i = 0; i < n - 1; i++) {
                 for (int j = 0; j < n - 1 - i; j++) {
-
-                    if (A[j] > A[j + 1]) {  // 오름차순 정렬
+                    // 오름차순 정렬
+                    if (A[j] > A[j + 1]) {
+                        // swap
                         temp = A[j];
                         A[j] = A[j + 1];
                         A[j + 1] = temp;
 
-                        if (A[j] == B[j]) {
+                        // j와 j+1를 바꾸었으니 c와 sum을 업데이트!!
+                        if (A[j] == B[j]) {  // 0 -> 1 : sum++
                             C[j] = 1;
                             sum++;
-                        } else if (C[j] == 1) {
+                        } else if (C[j] == 1) {  // 1 -> : sum--
                             C[j] = 0;
                             sum--;
-                        } else {
+                        } else {    // 0 -> 0 : sum 그대로
                             C[j] = 0;
                         }
 
+                        // j+1 작업
                         if (A[j + 1] == B[j + 1]) {
                             C[j + 1] = 1;
                             sum++;
@@ -93,21 +96,23 @@ public class B23970 {
                         }
                     }
 
-                    if (sum == n)  // 배열이 같을 때(sum==n)일 때 탈출해야함. 여기서 더 swap 해버리면 C가 달라저버럼. 이 떄문에 탈출을 위해 C배열 뿐만 아니라 sum이 필요함!
+                    // 배열이 같을 때(sum==n)일 때 탈출해야함. 여기서 더 swap 해버리면 C가 달라저버럼.
+                    // 이 떄문에 탈출을 위해 C배열 뿐만 아니라 sum이 필요함!
+                    if (sum == n)
                         break exit;
                 }
             }
         }
-        // A와 B가 같았던 때가 있는지 확인
+        // C에 0이 있는지 확인(A와 B의 원소가 다른게 있는지)
         boolean flag = true;
         for (int e : C) {
             if (e == 0)
                 flag = false;
         }
 
-        if (flag)
+        if (flag)   // 다른게 없다면 1
             System.out.println(1);
-        else
+        else    // 다른게 하나라도 있으면 0
             System.out.println(0);
     }
 }
