@@ -45,7 +45,7 @@ public class B23969 {
                     counts++; // 교체 시 카운트!
                 }
 
-                // 교체횟수가 k일 때의 배열 출력             *** 이걸 위 정렬 if문이랑 순서를 바꾸면 틀림.. 왜?
+                // 교체횟수가 k일 때의 배열 출력             * 이걸 위 정렬 if문이랑 순서를 바꾸면 틀린다. -> 맨 마지막 반복 때 swap하면 for문 탈출해서 counts==k 확인 못함.
                 if (counts == k) {
                     for (int e : arr)
                         sb.append(e).append(" ");
