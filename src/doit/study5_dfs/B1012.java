@@ -19,7 +19,8 @@ import java.util.StringTokenizer;
 
 //     [DFS Method]
 //i,j가 0보다 작고 m,n보다 크거나 같으면 return;
-//상 (i, j+1) 안가봤으면 방문체크 & DFS(i, j+1)
+//방문체크
+//상 : 안가봤으면 방문체크 & DFS(i, j+1)
 //하 ;;
 //좌 ;;
 //우 ;;
@@ -66,27 +67,23 @@ public class B1012 {
     }
 
     static void DFS(int i, int j) {
-        if (i<0 || i>m-1 || j<0 || j>n-1)  //i,j가 0보다 작고 m,n보다 크거나 같으면 return;
+        if (i<0 || i>m-1 || j<0 || j>n-1)  // i,j 범위 초과하면 return;
             return;
 
-        if (j+1!=n && map[i][j+1] == 1) { //상 (i, j+1) 안가봤으면 방문체크 & DFS(i, j+1)
-            map[i][j+1] = 0;
+        if (map[i][j] == 1) // if문 없어도 되지만, 0을 다시 0으로 초기화할 필요x
+            map[i][j] = 0;
+
+        // 상하좌우
+        if (j+1!=n && map[i][j+1] == 1) //상 (i, j+1) 안가봤으면 방문체크 & DFS(i, j+1)
             DFS(i, j + 1);
-        }
 
-        if (j!=0 && map[i][j-1] == 1) { // 하
-            map[i][j-1] = 0;
+        if (j!=0 && map[i][j-1] == 1) // 하
             DFS(i, j-1);
-        }
 
-        if (i!=0 && map[i-1][j] == 1) { // 좌
-            map[i-1][j] = 0;
+        if (i!=0 && map[i-1][j] == 1) // 좌
             DFS(i-1, j);
-        }
 
-        if (i+1!=m && map[i+1][j] == 1) { // 우
-            map[i+1][j] = 0;
+        if (i+1!=m && map[i+1][j] == 1) // 우
             DFS(i+1, j);
-        }
     }
 }

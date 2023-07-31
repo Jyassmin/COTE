@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="92f796de-af1a-48da-947e-7ee44fa6b935" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doit/study5_dfs/B1012.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doit/study5_dfs/B1012.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doit/study5_dfs/B2667.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doit/study5_dfs/B2667.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,19 +54,6 @@
   <component name="RunManager" selected="Application.B2667">
     <configuration name="B1012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="doit.study5_dfs.B1012" />
-      <module name="COTE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="doit.study5_dfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="B11724" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doit.study5_dfs.B11724" />
       <module name="COTE" />
       <extension name="coverage">
         <pattern>
@@ -128,6 +117,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="B2667_new" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doit.study5_dfs.B2667_new" />
+      <module name="COTE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="doit.study5_dfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,10 +144,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.B2667" />
+        <item itemvalue="Application.B2667_new" />
         <item itemvalue="Application.B2606" />
         <item itemvalue="Application.B1012" />
         <item itemvalue="Application.B11724_re" />
-        <item itemvalue="Application.B11724" />
       </list>
     </recent_temporary>
   </component>

@@ -46,26 +46,19 @@ public class B2667 {
         if (i<0 || j<0 || i>n-1 || j>n-1) {
             return;
         }
+        count++;
+        map[i][j] = 0; // 방문체크 필수!
 
-        if (j+1!=n && map[i][j+1] == 1) {
-            count++;
-            map[i][j+1] = 0;
+        if (j+1!=n && map[i][j+1] == 1)
             DFS(i, j+1);
-        }
-        if (j!=0 && map[i][j-1] == 1) {
-            count++;
-            map[i][j-1] = 0;
+
+        if (j!=0 && map[i][j-1] == 1)
             DFS(i, j-1);
-        }
-        if (i+1!=n && map[i+1][j] == 1) {
-            count++;
-            map[i+1][j] = 0;
+
+        if (i+1!=n && map[i+1][j] == 1)
             DFS(i+1, j);
-        }
-        if (i!=0 && map[i-1][j] == 1) {
-            count++;
-            map[i-1][j] = 0;
+
+        if (i!=0 && map[i-1][j] == 1)
             DFS(i-1, j);
-        }
     }
 }
