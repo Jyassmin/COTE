@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92f796de-af1a-48da-947e-7ee44fa6b935" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/doit/study5_dfs/B1012.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doit/study5_dfs/B1012.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doit/study5_dfs/B11724.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doit/study5_dfs/B11724.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/doit/study5_dfs/B2667.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doit/study5_dfs/B2667.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,12 +27,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="b99b9fd1-93f9-4d78-9409-e9eeaba02a78" />
+        <option name="url" value="https://github.com/Jyassmin/COTE.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/doit/study5_dfs/B2667.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2S0fobtavi6cVi3Vt5EMTQuxIG2" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -43,21 +61,27 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/kyle/work/COTE&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.B2667">
-    <configuration name="B1012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doit.study5_dfs.B1012" />
+  <component name="RunManager" selected="Application.B7759">
+    <configuration name="B7759" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doit.study7_binarysearch.B7759" />
       <module name="COTE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="doit.study5_dfs.*" />
+          <option name="PATTERN" value="doit.study7_binarysearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B11724_re" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doit.study5_dfs.B11724_re" />
+    <configuration name="J15649" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doit.practice.J15649" />
       <module name="COTE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="doit.study5_dfs.*" />
+          <option name="PATTERN" value="doit.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B18310" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doit.study4_sort.B18310" />
+    <configuration name="J15649_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doit.practice.J15649_test" />
       <module name="COTE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="doit.study4_sort.*" />
+          <option name="PATTERN" value="doit.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B2606" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doit.study5_dfs.B2606" />
+    <configuration name="J9105" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doit.practice.J9105" />
       <module name="COTE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="doit.study5_dfs.*" />
+          <option name="PATTERN" value="doit.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,25 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B2667" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doit.study5_dfs.B2667" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doit.practice.test" />
       <module name="COTE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="doit.study5_dfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="B2667_new" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doit.study5_dfs.B2667_new" />
-      <module name="COTE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="doit.study5_dfs.*" />
+          <option name="PATTERN" value="doit.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.B2667" />
-        <item itemvalue="Application.B2667_new" />
-        <item itemvalue="Application.B2606" />
-        <item itemvalue="Application.B1012" />
-        <item itemvalue="Application.B11724_re" />
+        <item itemvalue="Application.B7759" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.J15649_test" />
+        <item itemvalue="Application.J15649" />
+        <item itemvalue="Application.J9105" />
       </list>
     </recent_temporary>
   </component>
@@ -159,8 +170,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688288596598</updated>
+      <workItem from="1691421028024" duration="1358000" />
+      <workItem from="1691453419736" duration="377000" />
+      <workItem from="1693149794939" duration="5441000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -189,6 +206,21 @@
           <url>file://$PROJECT_DIR$/src/codingtest/p2.java</url>
           <line>48</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/doit/practice/J9105.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/doit/practice/J15649_test.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/doit/practice/J15649_test.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />

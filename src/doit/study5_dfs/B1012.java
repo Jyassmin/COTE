@@ -70,8 +70,7 @@ public class B1012 {
         if (i<0 || i>m-1 || j<0 || j>n-1)  // i,j 범위 초과하면 return;
             return;
 
-        if (map[i][j] == 1) // if문 없어도 되지만, 0을 다시 0으로 초기화할 필요x
-            map[i][j] = 0;
+        map[i][j] = 0;
 
         // 상하좌우
         if (j+1!=n && map[i][j+1] == 1) //상 (i, j+1) 안가봤으면 방문체크 & DFS(i, j+1)
