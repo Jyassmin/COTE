@@ -13,7 +13,7 @@ import java.util.StringTokenizer;
 // 그래서 mid < target일 때 "mid+1"(cnt_index)를 업데이트 하다가, 마지막 mid+1이 최종적으로 target보다 작은 수들의 갯수가 된다.
 // 따라서 각 target마다의 cnt_index를 누적시켜 답을 구한다.
 
-public class B7759 {
+public class B7795 {
     private static BufferedReader br;
     private static StringTokenizer st;
     private static int T, N, M;
@@ -43,9 +43,9 @@ public class B7759 {
             // target의 수 N번만큼 for문을 돌면서 B배열 중 target보다 작은 애들 중 가장 큰 인덱스를 찾는다.(그 인덱스 + 1이 작은애들 수임)
             int result = 0;
             for (int i = 0; i < N; i++) {
-                int cnt_index = 0;
                 int start = 0;
                 int end = M - 1;
+                int cnt_index = 0; // 찾고자하는 인덱스
 
                 while (start <= end) {
                     int mid = (start + end) / 2;

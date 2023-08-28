@@ -7,6 +7,7 @@
     <list default="true" id="92f796de-af1a-48da-947e-7ee44fa6b935" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/doit/study7_binarysearch/B1253.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doit/study7_binarysearch/B1253.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doit/study7_binarysearch/B7759.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doit/study7_binarysearch/B7795.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,9 +73,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.B7759">
-    <configuration name="B7759" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doit.study7_binarysearch.B7759" />
+  <component name="RunManager" selected="Application.B7795">
+    <configuration name="B7795" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doit.study7_binarysearch.B7795" />
       <module name="COTE" />
       <extension name="coverage">
         <pattern>
@@ -151,7 +152,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.B7759" />
+        <item itemvalue="Application.B7795" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.J15649_test" />
         <item itemvalue="Application.J15649" />
@@ -169,7 +170,7 @@
       <updated>1688288596598</updated>
       <workItem from="1691421028024" duration="1358000" />
       <workItem from="1691453419736" duration="377000" />
-      <workItem from="1693149794939" duration="6941000" />
+      <workItem from="1693149794939" duration="8502000" />
     </task>
     <servers />
   </component>
