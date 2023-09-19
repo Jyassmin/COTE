@@ -7,7 +7,6 @@
     <list default="true" id="92f796de-af1a-48da-947e-7ee44fa6b935" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/doit/study7_binarysearch/B1253.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doit/study7_binarysearch/B1253.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doit/study7_binarysearch/B7759.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doit/study7_binarysearch/B7795.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,20 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.B7795">
+  <component name="RunManager" selected="Application.B2512">
+    <configuration name="B2512" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doit.practice.B2512" />
+      <module name="COTE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="doit.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="B7795" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="doit.study7_binarysearch.B7795" />
       <module name="COTE" />
@@ -113,19 +125,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="J9105" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doit.practice.J9105" />
-      <module name="COTE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="doit.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="doit.practice.test" />
       <module name="COTE" />
@@ -152,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.B2512" />
         <item itemvalue="Application.B7795" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.J15649_test" />
         <item itemvalue="Application.J15649" />
-        <item itemvalue="Application.J9105" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +169,9 @@
       <updated>1688288596598</updated>
       <workItem from="1691421028024" duration="1358000" />
       <workItem from="1691453419736" duration="377000" />
-      <workItem from="1693149794939" duration="8502000" />
+      <workItem from="1693149794939" duration="12592000" />
+      <workItem from="1694428057321" duration="220000" />
+      <workItem from="1695102196853" duration="4296000" />
     </task>
     <servers />
   </component>
