@@ -35,9 +35,8 @@ public class B1138_한줄로서기 {
             int idx = 0;
 
             while (front_num[i] != count) {
-                if (i+1 < result_list.get(idx))
-                    count++;
-                    idx++;
+                count++;
+                idx++;
             }
             result_list.add(idx, i+1);
         }
